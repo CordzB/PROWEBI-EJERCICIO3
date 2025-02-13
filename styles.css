@@ -1,0 +1,34 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.btn-primary {
+    background-color: #51ff00;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #00b31e;
+    transform: scale(1.05);
+}
+
+
+.btn-danger {
+    background-color: #dc3545; 
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37; 
+    transform: scale(1.05);
+}
